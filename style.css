@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
-button {
-    color: red;
+
+.app {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(10,192,255);
+    background: linear-gradient(90deg, rgba(10,192,255,1) 0%, rgba(208,95,159,1) 35%, rgba(226,114,90,1) 100%);
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.visualizer {
+    width: 700px;
+    height: 700px;
+    background-color: rgb(221, 235, 247);
+    border-radius: 20px;
 }
